@@ -1,0 +1,174 @@
+@media screen and (min-width: 901px) {
+  .Menu-bar {
+    display: none;
+  }
+}
+
+/* ---------- SMALL LAPTOPS: make the hero characters smaller ---------- */
+@media only screen and (min-width: 901px) and (max-width: 1150px) {
+  .Left-Side img {
+    width: 450px;
+  }
+  .Right-Side img {
+    width: 400px;
+  }
+}
+
+/* ---------- TABLET + MOBILE ---------- */
+@media only screen and (max-width: 900px) {
+  /* nav bar: hide links, show logo + login + menu icon */
+  .link {
+    display: none;
+  }
+  .Nav-Bar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+  }
+  .Discord-Logo img {
+    width: 35px;
+  }
+  .Button {
+    padding: 5px 10px;
+  }
+  .Menu-bar i {
+    color: white;
+    font-size: 29px;
+  }
+
+  /* hero */
+  .container {
+    min-height: 0;
+  }
+  .hero-body {
+    justify-content: flex-start;
+    padding: 40px 20px 220px 20px;
+  }
+  .hero-text {
+    text-align: left;
+    font-size: 1rem;
+  }
+  .hero-Subtitle {
+    padding: 0;
+    text-align: left;
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+  .hero-link-1,
+  .hero-link-2 {
+    width: 100%;
+    max-width: 420px;
+    margin: 20px 0 0 0;
+  }
+  .hero-link-1 a {
+    justify-content: center;
+  }
+  .hero-link-2 button {
+    width: 100%;
+  }
+  .Left-Side {
+    right: auto;
+    left: -10px;
+  }
+  .Left-Side img {
+    width: 340px;
+  }
+  .Right-Side {
+    left: auto;
+    right: -20px;
+  }
+  .Right-Side img {
+    width: 320px;
+  }
+
+  /* section 1 */
+  .section1 {
+    flex-direction: column;
+    padding: 60px 20px 0 20px;
+  }
+  .Study-group {
+    flex: none;
+  }
+  .Study-flex {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  /* section 2 (image first, then text) */
+  .section2 {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    margin-top: 60px;
+    padding: 50px 20px;
+  }
+  .Voice-Image {
+    flex: none;
+    margin-bottom: 20px;
+  }
+
+  /* section 3 */
+  .section3 {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px 20px 20px 20px;
+  }
+  .Community {
+    flex: none;
+    margin-bottom: 20px;
+  }
+
+  /* title and text sizes */
+  .Study-Title,
+  .Voice-Title,
+  .Community-Title {
+    font-size: 28px;
+    max-width: none;
+  }
+  .Study-About,
+  .Voice-About,
+  .Community-About {
+    font-size: 1.1rem;
+    max-width: none;
+  }
+
+  /* section 4 */
+  .section4 {
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+  .Tech-flex {
+    align-items: flex-start;
+  }
+  .Tech-Title {
+    font-size: 16px;
+  }
+  .Tech-About {
+    text-align: left;
+    font-size: 1.1rem;
+  }
+  .Tech {
+    margin-top: 20px;
+  }
+
+  /* section 5 */
+  .section5 {
+    margin-top: 60px;
+  }
+  .content {
+    font-size: 26px;
+    padding-top: 30px;
+  }
+}
+
+/* ---------- SMALL PHONES ---------- */
+@media only screen and (max-width: 600px) {
+  .Right-Side img {
+    display: none;
+  }
+  .Left-Side img {
+    width: 300px;
+  }
+  .Left-Side {
+    left: -20px;
+  }
+}
