@@ -1,6 +1,8 @@
+ 
+
 # Discord Clone
 
-A Discord-inspired website clone built using HTML, CSS, and JavaScript, focusing on recreating its user interface and responsive design.
+A Discord-inspired website clone built using HTML and  CSS focusing on recreating its user interface and responsive design.
 
 ## Features
 
@@ -13,7 +15,7 @@ A Discord-inspired website clone built using HTML, CSS, and JavaScript, focusing
 
 - HTML5
 - CSS3
-- JavaScript
+-
 
 ## Folder Structure
 
