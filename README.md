@@ -1,28 +1,42 @@
+# Discord Clone
 
-# Discord Landing Page Clone
+A Discord-inspired website clone built using HTML, CSS, and JavaScript, focusing on recreating its user interface and responsive design.
 
-A frontend clone of the Discord landing page built to practice UI cloning and responsive web design.
+## Features
+
+- Discord-inspired website design
+- Clean and modern UI
+- Custom styling using CSS
+- Image assets for visual elements
 
 ## Tech Stack
 
 - HTML5
 - CSS3
+- JavaScript
 
-## Features
+## Folder Structure
 
-- Discord-inspired landing page design
-- Responsive user interface
-- Custom styling using CSS
+```text
+Discord_Clone/
+├── assets/
+│   ├── images/
+│   └── readme.md
+├── styles/
+├── index.html
+└── README.md
+```
 
 ## Getting Started
 
-1. Clone the repository:
+1. Clone the repo
 
-   ```bash
-   git clone https://github.com/joelfranklin22/Discord_Clone.git
-   ```
-2. Open `index.html` in your browser.
+```bash
+git clone https://github.com/joelfranklin22/Discord_Clone.git
+```
 
-## Author
+2. Open `index.html` in your browser — no setup needed!
 
-**Joel Franklin**
+### Author
+
+**Joel Franklin J**
