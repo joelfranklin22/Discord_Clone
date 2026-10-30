@@ -15,7 +15,6 @@ A Discord-inspired website clone built using HTML and  CSS focusing on recreatin
 
 - HTML5
 - CSS3
--
 
 ## Folder Structure
 
