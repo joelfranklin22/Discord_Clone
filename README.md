@@ -1,11 +1,28 @@
-# Discord_Clone
 
 # Discord Landing Page Clone
 
-A responsive clone of the Discord home page built with HTML and CSS.
-Works on desktop, tablet and mobile, with scroll animations for each section.
+A frontend clone of the Discord landing page built to practice UI cloning and responsive web design.
 
-Live demo: https://discord-clone-homepage-ui.netlify.app/
+## Tech Stack
 
-## Built with
-HTML5, CSS3, JavaScript, Font Awesome
+- HTML5
+- CSS3
+
+## Features
+
+- Discord-inspired landing page design
+- Responsive user interface
+- Custom styling using CSS
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/joelfranklin22/Discord_Clone.git
+   ```
+2. Open `index.html` in your browser.
+
+## Author
+
+**Joel Franklin**
